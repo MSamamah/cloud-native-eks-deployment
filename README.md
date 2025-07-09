@@ -12,25 +12,25 @@ This project is designed to showcase a **DevOps-first approach** to deploying mi
 
 ## 🧰 Tools & Technologies
 
-| Category      | Tools/Services Used                                 |
-|---------------|------------------------------------------------------|
-| Containerization | Docker                                              |
-| Container Registry | AWS Elastic Container Registry (ECR)               |
-| Orchestration | Kubernetes, AWS Elastic Kubernetes Service (EKS)    |
-| IaC/Automation | Python SDKs: `boto3` (for AWS), `kubernetes` (for K8s) |
-| Monitoring App | Flask + psutil (for generating system metrics UI)  |
-| CLI Tools | AWS CLI, kubectl                                        |
+| Category         | Tools/Services Used                              |
+|------------------|--------------------------------------------------|
+| Containerization | Docker                                           |
+| Container Registry | AWS Elastic Container Registry (ECR)          |
+| Orchestration    | Kubernetes, AWS Elastic Kubernetes Service (EKS) |
+| IaC/Automation   | Python SDKs: `boto3` (for AWS), `kubernetes` (for K8s) |
+| Monitoring App   | Flask + psutil (for generating system metrics UI)|
+| CLI Tools        | AWS CLI, kubectl                                 |
 
 ---
 
 ## 🛠️ What You'll Learn
 
-- How to **containerize** an app with Docker
-- Push container images to **Amazon ECR**
-- Create and manage **Amazon EKS clusters** using AWS CLI
-- Automate **Kubernetes deployments and services** using Python
+- How to containerize an app with Docker
+- Push container images to Amazon ECR
+- Create and manage Amazon EKS clusters using AWS CLI
+- Automate Kubernetes deployments and services using Python
 - Use `kubectl` to manage and inspect running pods, services, and deployments
-- Perform **port forwarding** and access services running inside a K8s cluster
+- Perform port forwarding and access services running inside a K8s cluster
 
 ---
 
@@ -129,7 +129,7 @@ Understand Docker and container orchestration
 
 Use Python SDKs for DevOps automation
 
-It’s not about the app — it's about the deployment.
+🧠 It’s not about the app — it's about the deployment.
 
 📜 License
 Licensed under the MIT License.
@@ -140,6 +140,12 @@ Edit
 
 ---
 
-Let me know if you're planning to include any diagrams, GitHub Actions, or Terraform in future iterations — I can help update the README for that too.
+### ✅ After replacing your `README.md` file:
 
-Ready to push this to GitHub now? ✅
+1. Save it
+2. Then run these Git commands:
+
+```bash
+git add README.md
+git commit -m "Fix: corrected README.md formatting and structure"
+git push origin main
