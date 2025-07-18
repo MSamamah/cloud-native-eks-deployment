@@ -38,7 +38,7 @@ This project is designed to showcase a **DevOps-first approach** to deploying mi
 ## 🧱 Architecture Overview
 
 ```
-<img src="./architecture diagram.png" alt="architecture diagram" width="500" />
+<img src="./architecture-diagram.png" alt="architecture diagram" width="500" />
 ```
 
 ---
