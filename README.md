@@ -38,14 +38,7 @@ This project is designed to showcase a **DevOps-first approach** to deploying mi
 ## 🧱 Architecture Overview
 
 ```
-[ Flask App ] --> [ Docker Image ] --> [ Amazon ECR ]
-                                         |
-                                         v
-                              [ Amazon EKS Cluster ]
-                                     |
-                             [ Kubernetes Deployment ]
-                                     |
-                             [ Load-balanced Service ]
+<img src="./architecture diagram.png" alt="architecture diagram" width="500" />
 ```
 
 ---
